@@ -33,10 +33,10 @@ def credentials():
 def model_run(txt,path):
     p=os.path.join(path,'fetched_tweets.txt')
     os.remove(p)
-    access_token = "167336084-Bywgz16DUYcfbmRP4yI1h1Je1lZaf4OJyWALHgpA"
-    access_token_secret = "q5DaPHEJiwk46HdzPxMD2lJiqlMEcX0rIG1uOAxXfoIaQ"
-    consumer_key = "Id0SixQ9V6JoWdIhzHOrXwkKB"
-    consumer_secret = "TjW0MJYHuJr0Ugq27UL6gx0yMssV2Xi7d2NsdYde7acFzegFP4"
+    access_token = "xxxxxx-xxxxx"
+    access_token_secret = "xxxxx"
+    consumer_key = "xxxxxx"
+    consumer_secret = "xxxxxxxx"
     l = StdOutListener()
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
